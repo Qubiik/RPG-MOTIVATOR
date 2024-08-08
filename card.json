@@ -1,0 +1,50 @@
+{"Kirigaya_Kazuto": { 
+    "Speed": 4, 
+    "Attack": 4, 
+    "Defense": 7,
+    "picture": "image/Kirigaya_Kazuto.png",
+    "price": 10
+},
+    
+
+"Akira_Senju": { 
+    "Speed": 4, 
+    "Attack": 6, 
+    "Defense": 5,
+    "picture": "image/Akira _Senju.png",
+    "price": 18
+},
+
+"Soushi_Nara": { 
+    "Speed": 3, 
+    "Attack": 6, 
+    "Defense": 8,
+    "picture": "image/Soushi_Nara.png",
+    "price": 21
+
+},
+
+"Haruka_Yuuki": { 
+    "Speed": 4, 
+    "Attack": 6, 
+    "Defense": 3,
+    "picture": "image/Haruka_Yuuki.png",
+    "price": 20
+},
+
+"Erza_Scarlet": { 
+    "Speed": 3, 
+    "Attack": 9, 
+    "Defense": 7,
+    "picture": "image/Erza_Scarlet.png",
+    "price": 31
+},
+"Akane_Makato": { 
+    "Speed": 5, 
+    "Attack": 11, 
+    "Defense": 4,
+    "picture": "image/Akane_Makato.png",
+    "price": 49
+
+}
+}
