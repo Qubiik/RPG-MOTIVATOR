@@ -3,7 +3,8 @@
     "Attack": 4, 
     "Defense": 7,
     "picture": "image/Kirigaya_Kazuto.png",
-    "price": 10
+    "price": 10,
+    "health": 10
 },
     
 
@@ -11,8 +12,9 @@
     "Speed": 4, 
     "Attack": 6, 
     "Defense": 5,
-    "picture": "image/Akira _Senju.png",
-    "price": 18
+    "picture": "image/Akira_Senju.png",
+    "price": 18,
+    "health": 10
 },
 
 "Soushi_Nara": { 
@@ -20,7 +22,8 @@
     "Attack": 6, 
     "Defense": 8,
     "picture": "image/Soushi_Nara.png",
-    "price": 21
+    "price": 21,
+    "health": 10
 
 },
 
@@ -29,7 +32,8 @@
     "Attack": 6, 
     "Defense": 3,
     "picture": "image/Haruka_Yuuki.png",
-    "price": 20
+    "price": 12,
+    "health": 10
 },
 
 "Erza_Scarlet": { 
@@ -37,14 +41,16 @@
     "Attack": 9, 
     "Defense": 7,
     "picture": "image/Erza_Scarlet.png",
-    "price": 31
+    "price": 31,
+    "health": 10
 },
 "Akane_Makato": { 
     "Speed": 5, 
     "Attack": 11, 
     "Defense": 4,
     "picture": "image/Akane_Makato.png",
-    "price": 49
+    "price": 49,
+    "health": 10
 
 }
 }
