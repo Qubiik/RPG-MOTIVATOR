@@ -102,12 +102,6 @@ def do_task(message):
     except:
         bot.send_message(message.chat.id, "Error: You stupid")
 
-def fighst(players1, players2, message):
-    ishod = fight_formula(db[str(players1)]['main_character'], db[str(players2)]['main_character'], players1, players2)
-    bot.send_message(players1, ishod)
-    bot.send_message(players2, ishod)
-    start(message)
-
 @bot.message_handler(commands=['start'])
 def start(message):
     if str(message.chat.id) not in db:
@@ -223,7 +217,7 @@ def callback_inline(call):
             buy_person_button = telebot.types.InlineKeyboardButton(text='Buy person', callback_data=f"{call.data}.buy")
             markup = telebot.types.InlineKeyboardMarkup()
             markup.add(buy_person_button)
-            f = open(f"C:/Users/qube2/Project/RPG_MOTIVATOR/image/{call.data}.jpg", "rb")
+            f = open(f"image/{call.data}.jpg", "rb")
             bot.send_photo(call.message.chat.id, f, caption=f"{call.data}\nSpeed: {card[call.data]['Speed']}\nAttack: {card[call.data]['Attack']}\nDefense: {card[call.data]['Defense']}\nPrice: {card[call.data]['price']}", reply_markup=markup)
             f.close()
         elif "buy" in call.data:
@@ -243,7 +237,7 @@ def callback_inline(call):
             markup = telebot.types.InlineKeyboardMarkup()
             set_character_button = telebot.types.InlineKeyboardButton(text='Set character', callback_data=f"{(call.data)[:-10]}.set")
             markup.add(set_character_button)
-            f = open(f"C:/Users/qube2/Project/RPG_MOTIVATOR/image/{(call.data)[:-10]}.jpg", "rb")
+            f = open(f"image/{(call.data)[:-10]}.jpg", "rb")
             data = card[(call.data)[:-10]]
             bot.send_photo(call.message.chat.id, f, caption=f"{(call.data)[:-10]}\nSpeed: {data['Speed']}\nAttack: {data['Attack']}\nDefense: {data['Defense']}", reply_markup=markup)
             f.close()
