@@ -13,7 +13,7 @@
     "Attack": 6, 
     "Defense": 5,
     "picture": "image/Akira_Senju.png",
-    "price": 18,
+    "price": 10,
     "health": 10
 },
 
@@ -22,7 +22,7 @@
     "Attack": 6, 
     "Defense": 8,
     "picture": "image/Soushi_Nara.png",
-    "price": 21,
+    "price": 10,
     "health": 10
 
 },
@@ -32,7 +32,7 @@
     "Attack": 6, 
     "Defense": 3,
     "picture": "image/Haruka_Yuuki.png",
-    "price": 12,
+    "price": 10,
     "health": 10
 },
 
@@ -41,7 +41,7 @@
     "Attack": 9, 
     "Defense": 7,
     "picture": "image/Erza_Scarlet.png",
-    "price": 31,
+    "price": 10,
     "health": 10
 },
 "Akane_Makato": { 
@@ -49,8 +49,38 @@
     "Attack": 11, 
     "Defense": 4,
     "picture": "image/Akane_Makato.png",
-    "price": 49,
+    "price": 10,
     "health": 10
 
-}
+},
+"Takemi_Shiori": { 
+    "Speed": 7, 
+    "Attack": 5, 
+    "Defense": 6,
+    "picture": "image/Takemi_Shiori.png",
+    "price": 10
+},
+
+"Mizuki_Hoshi": { 
+    "Speed": 5, 
+    "Attack": 7, 
+    "Defense": 5,
+    "picture": "image/Mizuki_Hoshi.png",
+    "price": 10},
+
+"Tina_Aina": { 
+    "Speed": 6, 
+    "Attack": 4, 
+    "Defense": 4,
+    "picture": "image/Tina_Aina.png",
+    "price": 10},
+
+"Ami_Kirukato": { 
+    "Speed": 7, 
+    "Attack": 3, 
+    "Defense": 3,
+    "picture": "image/Ami_Kirukato.png",
+    "price": 10}
+
+
 }
